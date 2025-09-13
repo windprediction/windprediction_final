@@ -7,7 +7,7 @@ main.py — 실전 문제 지침 준수 / 단일 result.csv만 생성
 • 환경: Ubuntu 22.04 (x86_64), Python 3.10+
 • 의존: pandas, numpy, xgboost, (pyarrow 또는 fastparquet), openpyxl (경주 엑셀 사용 시)
 
-[규정 준수]
+[규정 준수] 
   - 전날 15시 이후 생성/발령 NWP 미사용 (NWP 자체 미사용)
   - 실측/재분석/발령 이후 자료 미사용 (미래 입력은 과거 SCADA의 월×시간별 평균/클라이마톨로지 사용)
   - 예측 대상(미래) 기상/SCADA 데이터를 학습에 사용하지 않음
